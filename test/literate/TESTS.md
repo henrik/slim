@@ -695,6 +695,19 @@ renders as
 <dl itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress"></dl>
 ~~~
 
+You may use spaces around the assignment:
+
+~~~ slim
+h2[id = "tagline"
+   class = "small tagline"] Page tagline
+~~~
+
+renders as
+
+~~~ html
+<h2 id="tagline" class="small tagline">Page tagline</h2>
+~~~
+
 #### Quoted attributes
 
 You can use single or double quotes for simple text attributes.
